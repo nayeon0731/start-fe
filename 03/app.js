@@ -137,7 +137,7 @@ console.log("03");
 // var result = text.match(matchReg);
 
 // console.log(result);
-
+/*
 var todos = ['운동','독서'];
 
 function create() {
@@ -169,4 +169,38 @@ function isDelete() {
 
     todos.splice(deleteIndex, 1);
     console.log(todos);
+}*/
+
+
+// var count = [10, 20, 30, 40, 50, 60, 70, 100];
+// var num=0;
+// for(i=0; i<count.length; i++) {
+//     num += count[i];
+// }
+// var avg = num/count.length;
+// console.log(avg);
+
+// for(var i=2; i<10; i++) {
+//     console.log(i + '단');
+//     for(var j=1; j<10; j++) {
+//         console.log(i+'*'+j+'='+(i*j));
+//     }
+// }
+
+/*
+var num;
+function gugudan(num) {
+    console.log(num+'단');
+    for(var i=1; i<10; i++) {
+        console.log(num+'*'+i+'='+(num*i));
+    }
 }
+*/
+
+
+var sum=0;
+for(var i=0; i<5; i++) {
+    var a = parseInt(prompt("숫자를 입력하세요"));
+    sum += a;
+}
+console.log(sum);
