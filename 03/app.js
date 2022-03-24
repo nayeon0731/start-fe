@@ -198,9 +198,18 @@ function gugudan(num) {
 */
 
 
-var sum=0;
-for(var i=0; i<5; i++) {
-    var a = parseInt(prompt("숫자를 입력하세요"));
-    sum += a;
+// var sum=0;
+// for(var i=0; i<5; i++) {
+//     var a = parseInt(prompt("숫자를 입력하세요"));
+//     sum += a;
+// }
+// console.log(sum);
+
+var student = {
+    number: '2019108250',
+    major: '컴퓨터공학전공',
+    studentName:function() {
+        var a = window.prompt('이름을 입력해주세요');
+    }
 }
-console.log(sum);
+console.log(student);
