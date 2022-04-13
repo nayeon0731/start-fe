@@ -1,0 +1,1 @@
+console.log('quiz3 풀이');
