@@ -1,14 +1,14 @@
 console.log('quiz 8');
 
-const $box = document.querySelector('.box');
-const $min = document.querySelector('.min');
-const $max = document.querySelector('.max');
-const $btn = document.querySelector('.btn');
+const $box = document.querySelector('#box');
+const $min = document.querySelector('#min');
+const $max = document.querySelector('#max');
+const $btn = document.querySelector('#btn');
 
 let result = 0;
 let startNum = 0;
 let countAnimation = null;
-let cntSpeed = 500;
+let cntSpeed = 10;
 
 function getRandomNum(min, max) {
     return Math.floor(Math.random()*(max-min))+min;
