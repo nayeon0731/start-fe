@@ -17,8 +17,6 @@ let intervalID = 0;
 let point = 0;
 let life = 10;
 
-
-
 //bug가 box영역 안에서만 랜덤 출현
 //1. 크기 최대값출력
 function getRandomNum(max) {
