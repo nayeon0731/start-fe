@@ -4,10 +4,11 @@ const $btn = document.querySelector('#btn');
 const $log = document.querySelector('#log');
 
 function get() {
-    const url = fetch($url);
+    const url = $url.value;
+    // const url = fetch($url);
     console.log('url : ', url);
 
-    url.then(res=> {
+    fetch(url).then(res=> {
         const log = res.text();
         console.log(log);
 
