@@ -1,9 +1,15 @@
-console.log("week 7");
+console.log("08");
+const promise = fetch('http');
+console.log(promise);
 
-function getFetch(url, callback) {
-    fetch(url)
-        .then((response) => response.json())
-        .then((data) => callback.log(data));
+promise.then(res=> {
+    console.log(res);
+    const textPromise = res.text();
+    console.log(textPromise);
+
+    textPromise.then(data => console.log('data : ', data))
+})
+
+function calllback(data) {
+    console.log('callback : ',data);
 }
-
-getFetch('data.jason', (data) => console.log(data));
